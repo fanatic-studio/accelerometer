@@ -1,4 +1,4 @@
-package vd.android.accelerometer.module;
+package eco.android.accelerometer.module;
 
 import com.taobao.weex.annotation.JSMethod;
 import com.taobao.weex.bridge.JSCallback;
@@ -6,8 +6,8 @@ import com.taobao.weex.common.WXModule;
 
 import java.util.HashMap;
 
-import vd.android.accelerometer.module.sensor_accelerometer.AccelerometerModule;
-import vd.android.accelerometer.module.sensor_accelerometer.ModuleResultListener;
+import eco.android.accelerometer.module.sensor_accelerometer.AccelerometerModule;
+import eco.android.accelerometer.module.sensor_accelerometer.ModuleResultListener;
 
 public class AppaccelerometerModule extends WXModule {
 

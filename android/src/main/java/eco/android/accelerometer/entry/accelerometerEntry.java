@@ -1,12 +1,12 @@
-package vd.android.accelerometer.entry;
+package eco.android.accelerometer.entry;
 
 import android.content.Context;
 
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.common.WXException;
 
-import app.vd.framework.extend.annotation.ModuleEntry;
-import vd.android.accelerometer.module.AppaccelerometerModule;
+import app.eco.framework.extend.annotation.ModuleEntry;
+import eco.android.accelerometer.module.AppaccelerometerModule;
 
 @ModuleEntry
 public class accelerometerEntry {
@@ -19,7 +19,7 @@ public class accelerometerEntry {
 
         //1、注册weex模块
         try {
-            WXSDKEngine.registerModule("vdAccelerometer", AppaccelerometerModule.class);
+            WXSDKEngine.registerModule("ecoAccelerometer", AppaccelerometerModule.class);
         } catch (WXException e) {
             e.printStackTrace();
         }

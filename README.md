@@ -3,19 +3,19 @@
 ## 安装
 
 ```shell script
-vd plugin install https://github.com/ivde/accelerometer
+eco plugin install https://github.com/kjeco/accelerometer
 ```
 
 ## 卸载
 
 ```shell script
-vd plugin uninstall https://github.com/ivde/accelerometer
+eco plugin uninstall https://github.com/kjeco/accelerometer
 ```
 
 ## 引用
 
 ```js
-const accelerometer = app.requireModule("vd/accelerometer");
+const accelerometer = app.requireModule("eco/accelerometer");
 ```
 
 ### get(callback) 获取当前加速度

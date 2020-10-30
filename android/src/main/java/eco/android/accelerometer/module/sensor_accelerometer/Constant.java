@@ -1,4 +1,4 @@
-package vd.android.accelerometer.module.sensor_accelerometer;
+package eco.android.accelerometer.module.sensor_accelerometer;
 
 import android.os.Environment;
 
